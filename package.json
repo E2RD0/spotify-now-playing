@@ -1,13 +1,28 @@
 {
+  "name": "spotify-now-playing",
+  "version": "1.0.0",
+  "description": "A minimal API to fetch your currently playing track from Spotify",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "keywords": [
+    "spotify",
+    "now-playing",
+    "api",
+    "music",
+    "express"
+  ],
+  "author": "Eduardo Estrada <me@e2rd0.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/E2RD0/spotify-now-playing.git"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^4.19.2",
-    "node-fetch": "^2.7.0",
-    "querystring": "^0.2.1"
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   }
 }
